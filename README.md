@@ -68,7 +68,13 @@ def MinutesToHours():
     print(f"{hour}:{minutes}")
 
 def HoursToMinutes():
-    print("Working on it")
+    os.system("clear")
+    print("Hours to Minutes Converter")
+    print()
+    hours = int(input("Enter Time in hours: "))
+    minutes = hours * 60
+    print(f"{hours} hours is equal to {minutes} minutes.")
+    print()
 
 def AddTime():
     os.system("clear")
